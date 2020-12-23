@@ -2,3 +2,5 @@ molecule==1.25.1
 yamllint==1.8.1
 python-vagrant==0.5.15
 docker
+
+paramiko>=2.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
